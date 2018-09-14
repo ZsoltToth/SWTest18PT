@@ -4,4 +4,7 @@
   <artifactId>bundle</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Car Rent Example</name>
+  <packaging>pom</packaging>
+  <modules>
+  </modules>
 </project>
