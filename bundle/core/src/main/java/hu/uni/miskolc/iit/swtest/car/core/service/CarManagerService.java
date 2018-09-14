@@ -3,6 +3,7 @@ package hu.uni.miskolc.iit.swtest.car.core.service;
 import java.util.Collection;
 
 import hu.uni.miskolc.iit.swtest.car.core.model.Car;
+import hu.uni.miskolc.iit.swtest.car.core.model.Manufacturer;
 import hu.uni.miskolc.iit.swtest.car.core.service.exceptions.CarAlreadyExistsException;
 
 public interface CarManagerService {
@@ -11,6 +12,6 @@ public interface CarManagerService {
 	void updateCar(Car car) throws CarDoesNotExisitsException;
 	
 	Collection<Car> listCars();
-	Collection<Car> listCarsByManufacturer();
+	Collection<Car> listCarsByManufacturer(Manufacturer manufacturer);
 
 }
