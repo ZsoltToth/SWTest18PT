@@ -14,6 +14,7 @@ public class Car {
 			throw new InvalidProductionYearException();
 		}
 		this.model = model;
+		this.manufacturer = model.getManufacturer();
 		this.color = color;
 		this.productionYear = productionYear;
 		this.grossWeight = grossWeight;
